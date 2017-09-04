@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Twatt extends Component {
+class Twatt extends Component {
   render() {
     return (
       <div className="twatt">
@@ -11,3 +11,11 @@ export default class Twatt extends Component {
     )
   }
 }
+
+Twatt.defaultProps = {
+  author: 'Mistery',
+  text: '',
+  pic: 'mistery.png'
+};
+
+export default Twatt;
