@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "mocha -w test/**/*.test.js --ui bdd --compilers js:babel-core/register"
+    "test": "mocha test/**/*.test.js --ui bdd --compilers js:babel-core/register"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
