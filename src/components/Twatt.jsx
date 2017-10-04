@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import moment from 'moment';
 
 class Twatt extends Component {
   render() {
@@ -15,7 +16,8 @@ class Twatt extends Component {
 Twatt.defaultProps = {
   author: 'Mistery',
   text: '',
-  pic: 'mistery.png'
+  pic: 'mistery.png',
+  date: '0'
 };
 
 export default Twatt;

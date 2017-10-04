@@ -12,7 +12,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    filename: 'js/index_bundle.js'
   },
   module: {
     rules: [
@@ -26,6 +26,6 @@ module.exports = {
   },
   plugins: [
     HtmlWebpackPluginConfig,
-    new ExtractTextPlugin('./dist/styles.css')
+    new ExtractTextPlugin('css/styles.css')
   ]
 };
